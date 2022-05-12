@@ -1,0 +1,30 @@
+/* General */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+body > * {
+    grid-column: 1 / span 12;
+}
+
+/* Heading */
+header {
+    background-color: red;
+}
+
+/* Content */
+
+main {
+    background-color: green;
+}
+
+/* Footer */
+
+footer {
+    background-color: blue;
+}
