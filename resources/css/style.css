@@ -1,6 +1,11 @@
 /* General */
+
 * {
     box-sizing: border-box;
+}
+
+html {
+    font-size: 20px;
 }
 
 body {
@@ -13,18 +18,26 @@ body > * {
 }
 
 /* Heading */
+
 header {
-    background-color: red;
+    background-color: midnightblue;
+    max-height: 10rem;
+    overflow: hidden;
+}
+
+header img {
+    height: auto;
+    max-width: 100%;
 }
 
 /* Content */
 
 main {
-    background-color: green;
+    background-color: lightgrey;
 }
 
 /* Footer */
 
 footer {
-    background-color: blue;
+    background-color: midnightblue;
 }
