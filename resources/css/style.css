@@ -10,11 +10,20 @@ html {
 
 body {
     display: grid;
+    grid-gap: 0.25rem;
     grid-template-columns: repeat(12, 1fr);
 }
 
 body > * {
     grid-column: 1 / span 12;
+}
+
+h2 {
+    background-color: midnightblue;
+    border: 0.25rem solid white;
+    color: aliceblue;
+    margin: 0;
+    text-align: center;
 }
 
 /* Heading */
@@ -40,4 +49,10 @@ main {
 
 footer {
     background-color: midnightblue;
+}
+
+footer ul {
+    color: aliceblue;
+    list-style: none;
+    text-align: center;
 }
