@@ -36,6 +36,7 @@ p {
 
 header {
     background-color: midnightblue;
+    display: flex;
     max-height: 10rem;
     overflow: hidden;
 }
@@ -61,4 +62,18 @@ footer ul {
     color: aliceblue;
     list-style: none;
     text-align: center;
+}
+
+/* Tablet */
+
+@media screen and (min-width: 426px)  {
+    header img {
+        max-width: 50%;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    header img {
+        max-width: 33%;
+    }
 }
