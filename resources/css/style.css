@@ -5,6 +5,7 @@
 }
 
 html {
+    font-family: 'Roboto', sans-serif;
     font-size: 20px;
 }
 
@@ -23,7 +24,12 @@ h2 {
     border: 0.25rem solid white;
     color: aliceblue;
     margin: 0;
+    padding: 0.5rem 0;
     text-align: center;
+}
+
+p {
+    padding: 0 0.75rem;
 }
 
 /* Heading */
