@@ -32,6 +32,10 @@ p {
     padding: 0 0.75rem;
 }
 
+a {
+    color: aliceblue;
+}
+
 /* Heading */
 
 header {
@@ -74,6 +78,6 @@ footer ul {
 
 @media screen and (min-width: 769px) {
     header img {
-        max-width: 33%;
+        max-width: 33.33%;
     }
 }
