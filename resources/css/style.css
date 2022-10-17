@@ -56,6 +56,10 @@ main {
     background-color: lightgrey;
 }
 
+main a {
+    color: black;
+}
+
 /* Footer */
 
 footer {
